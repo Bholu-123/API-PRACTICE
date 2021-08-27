@@ -22,7 +22,7 @@ class Github {
     }
 }
 
-class UI{
+class Ui{
     //UI constructor
     constructor(){
        this.profile=document.querySelector("#profile");
@@ -109,7 +109,7 @@ class UI{
 const github = new Github;
 
 //init UI class
-const ui = new UI;
+const ui = new Ui;
 
 //Get the value of Search bar
 const searchBar=document.querySelector('#searchUser');
